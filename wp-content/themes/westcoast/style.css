@@ -1,0 +1,151 @@
+/*
+Theme Name: Understrap
+Theme URI: https://understrap.com
+Author: Howard Development &amp; Consulting
+Author URI: https://howarddc.com
+GitHub Theme URI: https://github.com/understrap/understrap
+Description: The renowned WordPress starter theme framework that combined Underscores and Bootstrap. Trusted by more than 100,000 developers for building handcrafted, custom WordPress sites.
+Version: 1.2.4
+Requires at least: 5.0
+Tested up to: 6.1
+Requires PHP: 5.2
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: understrap
+Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, full-width-template, theme-options, translation-ready, block-styles, wide-blocks, editor-style, threaded-comments, accessibility-ready
+
+Understrap WordPress Theme, (C) 2021 Howard Development & Consulting, LLC
+Understrap is distributed under the terms of the GNU GPL.
+
+Resource Licenses:
+Understrap is based on Underscores https://underscores.me/, (C) Automattic, Inc.
+Font Awesome: https://fontawesome.com/v4.7/license/ (Font: SIL OFL 1.1, (S)CSS: MIT)
+Bootstrap: https://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (MIT)
+WP Bootstrap Navwalker by Edward McIntyre & William Patton: https://github.com/twittem/wp-bootstrap-navwalker (GNU GPLv3)
+*/
+
+/*
+Do not modify the parent Understrap theme. Instead, download a copy of the Understrap Child starter theme and do all your development within the child theme.
+Full developer documentation: https://docs.understrap.com
+*/
+
+/* colors
+$purple: #3E3BE1;
+$orange: #F6AD55;
+$pink: #B83280;
+$teal: #276749;
+$aqua: #38B2AC;
+*/
+@font-face {
+    font-family: 'Super Sunday';
+    src: url('fonts/SuperSunday.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Super Sunday', cursive;
+}
+.navbar h1.navbar-brand a, #wrapper-navbar .navbar-dark .navbar-brand a {
+    color: #38B2AC;
+    text-shadow: -1px 1px 0 #B83280, -2px 3px #B83280,  -3px 5px #B83280;
+    font-size: 35px;
+}
+.navbar-brand {
+	padding-top: 0px;
+}
+.navbar h1.navbar-brand a:hover {
+    color: #3e3be1;
+}
+#navbarNavDropdown .navbar-nav .nav-link  {
+    color: #276749 !important;
+}
+#navbarNavDropdown .navbar-nav .nav-link:hover {
+    color: #38b2ac !important;
+    font-weight: 700;
+    margin-left: -5px;
+} 
+h1 {
+  color: #FFD2EC;  
+  text-shadow: -4px 3px 0 #B83280, -10px 7px #B83280;
+  font-size: 96px;
+}
+h2.entry-title {
+  color: #C6F6D5;
+  text-shadow: -1px 1px 0 #38B2AC, -2px 3px #38B2AC, -3px 5px #38B2AC;
+}
+h2.entry-title a {
+    color: #C6F6D5;
+}
+body {
+    color: #C4E3F9;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: #B83280;
+    transition: all .5s ease-out;
+}
+p a, .site-main a {
+    font-weight: 700;
+}
+a:hover {
+    color: #38B2AC;
+    text-decoration: none;
+    transition: .5s all ease-out;
+}
+a:hover {
+    color: #38B2AC;
+    text-decoration: none;
+    transition: .5s all ease-out;
+}
+a.btn, .wpcf7 input[type=submit], .wp-block-buttons .wp-block-button .wp-block-button__link  { 
+    border-radius: 12px 0px;
+    background: #38B2AC;
+    padding: 10px 16px 10px 16px;
+}
+.btn-secondary {
+    border-color: #38B2AC;
+}
+a.btn:hover, .btn-outline-primary:hover, .wpcf7 input[type=submit]:hover, .wp-block-buttons .wp-block-button .wp-block-button__link:hover  {
+    border: 1px solid #B83280;
+    background: #3C2199;
+    box-shadow: 0px 1px 6px 0px #B83280;
+}
+a.btn-secondary:hover {
+    border: 1px solid #B83280;
+    background: #3C2199;
+    box-shadow: 0px 1px 6px 0px #B83280;
+}
+.wpcf7 input[type=submit] { 
+	padding-top: 6px;
+}
+.btn:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled) {
+    background: #38B2AC;
+}
+
+/* overrides */
+#wrapper-hero {
+    padding: 0 15px !important;
+}
+nav.bg-primary {
+    background: #fff !important;
+    border-bottom: 4px solid #B83280;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+/* form stuff */
+.form-control, .wpcf7 .wpcf7-validation-errors, .wpcf7 input[type=color], .wpcf7 input[type=date], .wpcf7 input[type=datetime-local], .wpcf7 input[type=datetime], .wpcf7 input[type=email], .wpcf7 input[type=file], .wpcf7 input[type=month], .wpcf7 input[type=number], .wpcf7 input[type=range], .wpcf7 input[type=search], .wpcf7 input[type=submit], .wpcf7 input[type=tel], .wpcf7 input[type=text], .wpcf7 input[type=time], .wpcf7 input[type=url], .wpcf7 input[type=week], .wpcf7 select, .wpcf7 textarea {
+	border: 1px solid #38B2AC;
+	background: #140B33;
+	color: #fff;
+}
+
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+	background: #140B33;
+}
+.form-control:focus, .wpcf7 .wpcf7-validation-errors:focus, .wpcf7 input[type=color]:focus, .wpcf7 input[type=date]:focus, .wpcf7 input[type=datetime-local]:focus, .wpcf7 input[type=datetime]:focus, .wpcf7 input[type=email]:focus, .wpcf7 input[type=file]:focus, .wpcf7 input[type=month]:focus, .wpcf7 input[type=number]:focus, .wpcf7 input[type=range]:focus, .wpcf7 input[type=search]:focus, .wpcf7 input[type=submit]:focus, .wpcf7 input[type=tel]:focus, .wpcf7 input[type=text]:focus, .wpcf7 input[type=time]:focus, .wpcf7 input[type=url]:focus, .wpcf7 input[type=week]:focus, .wpcf7 select:focus, .wpcf7 textarea:focus {
+	background: #fff;
+	color: #140B33;
+	border-color: #38b2ac;
+	box-shadow: 0 0 0 .1rem rgba(56, 178, 172, 1);
+}
