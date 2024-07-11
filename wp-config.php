@@ -20,7 +20,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'fabazaar' );
+define( 'DB_NAME', 'fabwpdb' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
@@ -37,10 +37,12 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+// define( 'WP_HOME', 'https://fabazaar.mcurrier.com' );
+// define( 'WP_SITEURL', 'https://fabazaar.mcurrier.com' ); 
 
-define( 'WP_HOME', 'http://fabazaar.mcurrier.com' );
-define( 'WP_SITEURL', 'https://fabazaar.mcurrier.com' );
+define( 'WP_HOME', 'localhost/fabwptest' );
 /**#@+
+ * 
  * Authentication unique keys and salts.
  *
  * Change these to different unique phrases! You can generate these using
