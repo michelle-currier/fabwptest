@@ -15299,4 +15299,9 @@ figure.woocommerce-product-gallery__wrapper {
   clip: auto;
 }
 
+h4, .h4 {
+  color: #C4E3F9;
+  text-shadow: -1px 1px 0 #3E3BE1, -2px 3px #3E3BE1;
+}
+
 /*# sourceMappingURL=theme.css.map */

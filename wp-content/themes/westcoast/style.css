@@ -53,6 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand {
 	padding-top: 0px;
 }
+.navbar h1.navbar-brand {
+    margin-left: 0;
+}
 .navbar h1.navbar-brand a:hover {
     color: #3e3be1;
 }
@@ -69,12 +72,23 @@ h1 {
   text-shadow: -4px 3px 0 #B83280, -10px 7px #B83280;
   font-size: 96px;
 }
-h2.entry-title {
+h1.entry-title {
+    margin-left: 15px;
+}
+h2.entry-title, h2.wp-block-heading {
   color: #C6F6D5;
   text-shadow: -1px 1px 0 #38B2AC, -2px 3px #38B2AC, -3px 5px #38B2AC;
 }
 h2.entry-title a {
     color: #C6F6D5;
+}
+h3 {
+    color: #FBC8A3;
+    text-shadow: -1px 1px 0 #BC5935, -2px 3px #BC5935, -3px 5px #BC5935;
+}
+h4 {
+    color: #C4E3F9;
+    text-shadow: -1px 1px 0 #3E3BE1, -2px 3px #3E3BE1;
 }
 body {
     color: #C4E3F9;
