@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'fabazaar' );
 
 /** Database username */
-define( 'DB_USER', 'admin' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'UfD4]moEHs]K' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -37,6 +37,9 @@ define( 'DB_CHARSET', 'utf8mb4' );
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
 
+
+define( 'WP_HOME', 'http://fabazaar.mcurrier.com' );
+define( 'WP_SITEURL', 'https://fabazaar.mcurrier.com' );
 /**#@+
  * Authentication unique keys and salts.
  *
