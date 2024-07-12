@@ -135,7 +135,10 @@ a.btn-secondary:hover {
 .btn:not(:disabled):not(.disabled), .woocommerce-info a.button:not(:disabled):not(.disabled), .woocommerce-notices-wrapper .woocommerce-message a.button:not(:disabled):not(.disabled), .wpcf7 input[type=submit]:not(:disabled):not(.disabled) {
     background: #38B2AC;
 }
-
+.navbar-dark .navbar-toggler {
+    color: #B83280;
+    background: #B83280;
+}
 /* overrides */
 #wrapper-hero {
     padding: 0 15px !important;
